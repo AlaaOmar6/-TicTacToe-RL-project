@@ -229,40 +229,40 @@ tictactoe-rl-project/
 
 ```
 ┌─────────────────────────────────────────────────────────┐
-│                    SECTION 1: Constants                  │
+│                    SECTION 1: Constants                 │
 ├─────────────────────────────────────────────────────────┤
-│                    SECTION 2: Board Utilities            │
-│  • State encoding/decoding                               │
-│  • Move generation & validation                          │
-│  • Win/draw detection                                    │
-│  • State-space DFS generator                             │
+│                    SECTION 2: Board Utilities           │
+│  • State encoding/decoding                              │
+│  • Move generation & validation                         │
+│  • Win/draw detection                                   │
+│  • State-space DFS generator                            │
 ├─────────────────────────────────────────────────────────┤
-│                    SECTION 3: State Verification         │
-│  • 2,423 non-terminal X-state assertion                  │
+│                    SECTION 3: State Verification        │
+│  • 2,423 non-terminal X-state assertion                 │
 ├─────────────────────────────────────────────────────────┤
-│  SECTION 4: Minimax    │  SECTION 5: DP Policy Iteration │
-│  • Recursive search    │  • Value iteration              │
-│  • Gamma discounting   │  • Policy improvement           │
+│  SECTION 4: Minimax    │  SECTION 5: DP Policy Iteration│
+│  • Recursive search    │  • Value iteration             │
+│  • Gamma discounting   │  • Policy improvement          │
 ├─────────────────────────────────────────────────────────┤
-│                    SECTION 6: Consistency Check          │
-│  • Verify DP ≡ Minimax on all 2,423 states               │
+│                    SECTION 6: Consistency Check         │
+│  • Verify DP ≡ Minimax on all 2,423 states              │
 ├─────────────────────────────────────────────────────────┤
-│  SECTION 7: Monte Carlo │  SECTION 8: Q-Learning         │
-│  • Every-Visit MC       │  • Off-Policy TD               │
-│  • Incremental mean     │  • True bootstrapping          │
-│  • vs Minimax opponent  │  • Self-play                   │
+│  SECTION 7: Monte Carlo │  SECTION 8: Q-Learning        │
+│  • Every-Visit MC       │  • Off-Policy TD              │
+│  • Incremental mean     │  • True bootstrapping         │
+│  • vs Minimax opponent  │  • Self-play                  │
 ├─────────────────────────────────────────────────────────┤
-│                    SECTION 9: SARSA (Optional)           │
-│  • On-Policy TD                                          │
+│                    SECTION 9: SARSA (Optional)          │
+│  • On-Policy TD                                         │
 ├─────────────────────────────────────────────────────────┤
-│                    SECTION 10: Greedy Evaluation         │
-│  • ε=0 deterministic policy testing                      │
+│                    SECTION 10: Greedy Evaluation        │
+│  • ε=0 deterministic policy testing                     │
 ├─────────────────────────────────────────────────────────┤
-│                    SECTION 11: Learning Curves           │
-│  • Matplotlib visualization                              │
+│                    SECTION 11: Learning Curves          │
+│  • Matplotlib visualization                             │
 ├─────────────────────────────────────────────────────────┤
-│                    SECTION 12: Theoretical Comparison    │
-│  • Algorithm analysis & design rationale                 │
+│                    SECTION 12: Theoretical Comparison   │
+│  • Algorithm analysis & design rationale                │
 └─────────────────────────────────────────────────────────┘
 ```
 
