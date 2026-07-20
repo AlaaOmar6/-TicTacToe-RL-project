@@ -27,9 +27,6 @@
 
 This project implements and rigorously compares **four fundamental approaches** to solving Tic-Tac-Toe through the lens of Reinforcement Learning and Game Theory. The agent learns to play optimally as **Player X** against an optimal **Minimax opponent (Player O)**.
 
-> **Course:** Reinforcement Learning — Project 2  
-> **Instructor:** Eng. Abdelrahman Shehata
-
 ### What Makes This Project Unique?
 
 - 🔍 **Complete state-space enumeration** — all 5,478 valid game states generated via DFS
