@@ -63,18 +63,18 @@ This project implements and rigorously compares **four fundamental approaches** 
 ### Optimal Play Verification
 
 ```
-✅ V(empty board) = 0.0000        (draw under optimal play)
-✅ DP-Minimax mismatches: 0       (verified on all 2,423 states)
-✅ DP converged in 6 iterations
+V(empty board) = 0.0000        (draw under optimal play)
+DP-Minimax mismatches: 0       (verified on all 2,423 states)
+DP converged in 6 iterations
 ```
 
 ### Greedy Policy Performance (ε = 0)
 
 | Agent | Win Rate | Draw Rate | Loss Rate | Status |
 |-------|----------|-----------|-----------|--------|
-| **Monte Carlo** | ~0% | **>90%** | <5% | ✅ Optimal |
-| **Q-Learning** | ~0% | **>90%** | <5% | ✅ Optimal |
-| **SARSA** | ~0% | **>90%** | <5% | ✅ Optimal |
+| **Monte Carlo** | ~0% | **>90%** | <5% | Optimal |
+| **Q-Learning** | ~0% | **>90%** | <5% | Optimal |
+| **SARSA** | ~0% | **>90%** | <5% | Optimal |
 
 > All agents successfully learn to **force a draw** against an unbeatable Minimax opponent — the theoretical best outcome in Tic-Tac-Toe.
 
@@ -188,8 +188,8 @@ The project generates comparative learning curves showing the evolution of **win
 
 | Aspect | Minimax | DP | Monte Carlo | Q-Learning | SARSA |
 |--------|---------|-----|-------------|------------|-------|
-| **Requires Model** | ✅ Yes | ✅ Yes | ❌ No | ❌ No | ❌ No |
-| **Bootstrapping** | N/A | N/A | ❌ No | ✅ Yes | ✅ Yes |
+| **Requires Model** | Yes | Yes | No | No | No |
+| **Bootstrapping** | N/A | N/A | No | Yes | Yes |
 | **Exploration** | N/A | N/A | ε-greedy | ε-greedy | ε-greedy |
 | **Bias/Variance** | Zero/Zero | Zero/Zero | Low/High | Med/Low | Med/Low |
 | **Sample Efficiency** | N/A | N/A | Low | High | High |
